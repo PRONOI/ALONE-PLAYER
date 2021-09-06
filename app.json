@@ -1,0 +1,83 @@
+{
+  "name": "ALONE-Player",
+  "logo": "https://telegra.ph/file/7e80532edb4e7ddd8e01c.jpg",
+  "description": "Hey i am most powerful & expensive bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/PRONOI/ALONE-PLAYER",
+  "stack": "container",
+  "buildpacks": [
+   {
+     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+   }   
+  ],        
+  "env": {
+    "SESSION_NAME": {
+      "description": "Pyrogram Session String",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Get it From @BotFather",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "Your Bot Username Without @",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "Your Music Player Bot Name.",
+      "required": false,
+      "value": ""
+    },
+    "SUPPORT_GROUP": {
+      "description": "Your Music Player Support Group Without @ [Leave this if you don't have one]",
+      "required": false,
+      "value": "CRAZYxWORLD_OP"
+    },
+    "PROJECT_NAME": {
+      "description": "Your Music Player Project Name.",
+      "required": false,
+      "value": "ALONE-Player"
+    },
+    "ASSISTANT_NAME": {
+      "description": "Your Music Player's Assistant Username Without @.",
+      "required": true
+    },
+    "ARQ_API_KEY": {
+      "description": "Get from @ARQRobot.",
+      "required": false,
+      "value": "YMDWOI-SLCLCN-ZMURDK-DKOWMB-ARQ"
+    },    
+    "BG_IMAGE": {
+      "description": "Bacground Image [Optional].",
+      "required": false,
+      "value": " https://telegra.ph/file/6f08b58f7972d3f5d7479.jpg"
+    },     
+    "UPDATES_CHANNEL": {
+      "description": "Updates Channel without @ [Leave this if you don't have one].",
+      "required": false,
+      "value": "ALONExSAD_BiO"
+    },    
+    "API_ID": {
+      "description": "App ID From my.telegram.org/apps",
+      "required": true
+    },
+    "PMPERMIT": {
+      "description": "You Can Change it to Turn off",
+      "required": false,
+      "value": "ENABLE"
+    },    
+    "API_HASH": {
+      "description": "Api Hash From my.telegram.org/apps",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "List of user IDs Counted As Admin Everywhere (separated by space).",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "Max Audio Duration Limit For Downloads (Miniutes).",
+      "required": true,
+      "value": "30"
+    }
+  }
+}
