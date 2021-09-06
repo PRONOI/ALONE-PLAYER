@@ -18,8 +18,8 @@
 import requests
 from pyrogram import Client as Bot
 
-from AdityaPlayer.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
-from AdityaPlayer.services.callsmusic import run
+from Aloneplayer.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
+from Aloneplayer.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
 file = open("./etc/foreground.png", "wb")
@@ -31,7 +31,7 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="AdityaPlayer.modules"),
+    plugins=dict(root="Aloneplayer.modules"),
 )
 
 bot.start()
