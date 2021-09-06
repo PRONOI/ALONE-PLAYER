@@ -32,24 +32,24 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
 
-from AdityaPlayer.config import ARQ_API_KEY
-from AdityaPlayer.config import BOT_NAME as bn
-from AdityaPlayer.config import DURATION_LIMIT
-from AdityaPlayer.config import UPDATES_CHANNEL as updateschannel
-from AdityaPlayer.config import que
-from AdityaPlayer.function.admins import admins as a
-from AdityaPlayer.helpers.admins import get_administrators
-from AdityaPlayer.helpers.channelmusic import get_chat_id
-from AdityaPlayer.helpers.errors import DurationLimitError
-from AdityaPlayer.helpers.decorators import errors
-from AdityaPlayer.helpers.decorators import authorized_users_only
-from AdityaPlayer.helpers.filters import command, other_filters
-from AdityaPlayer.helpers.gets import get_file_name
-from AdityaPlayer.services.callsmusic import callsmusic
-from AdityaPlayer.services.callsmusic.callsmusic import client as USER
-from AdityaPlayer.services.converter.converter import convert
-from AdityaPlayer.services.downloaders import youtube
-from AdityaPlayer.services.queues import queues
+from Aloneplayer.config import ARQ_API_KEY
+from Aloneplayer.config import BOT_NAME as bn
+from Aloneplayer.config import DURATION_LIMIT
+from Aloneplayer.config import UPDATES_CHANNEL as updateschannel
+from Aloneplayer.config import que
+from Aloneplayer.function.admins import admins as a
+from Aloneplayer.helpers.admins import get_administrators
+from Aloneplayer.helpers.channelmusic import get_chat_id
+from Aloneplayer.helpers.errors import DurationLimitError
+from Aloneplayer.helpers.decorators import errors
+from Aloneplayer.helpers.decorators import authorized_users_only
+from Aloneplayer.helpers.filters import command, other_filters
+from Aloneplayer.helpers.gets import get_file_name
+from Aloneplayer.services.callsmusic import callsmusic
+from Aloneplayer.services.callsmusic.callsmusic import client as USER
+from Aloneplayer.services.converter.converter import convert
+from Aloneplayer.services.downloaders import youtube
+from Aloneplayer.services.queues import queues
 
 aiohttpsession = aiohttp.ClientSession()
 chat_id = None
