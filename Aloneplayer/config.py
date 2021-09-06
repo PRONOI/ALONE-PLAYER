@@ -1,5 +1,5 @@
-# AdityaPlayer- Telegram bot project
-# Copyright (C)  Aditya Halder
+# AlonePlayer- Telegram bot project
+# Copyright (C)  Alone
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
 # published by the Free Software Foundation, either version 3 of the
@@ -32,10 +32,10 @@ admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 BOT_USERNAME = getenv("BOT_USERNAME")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Aditya_Player")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "AdityaDiscus")
-PROJECT_NAME = getenv("PROJECT_NAME", "Aditya Player")
-SOURCE_CODE = getenv("SOURCE_CODE", "AdityaHalder")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "ALONExASSISTANT")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "CRAZYxWORLD_OP")
+PROJECT_NAME = getenv("PROJECT_NAME", "Alone-player")
+SOURCE_CODE = getenv("SOURCE_CODE", "ALONE-PLAYER")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
 ARQ_API_KEY = getenv("ARQ_API_KEY", None)
 PMPERMIT = getenv("PMPERMIT", None)
