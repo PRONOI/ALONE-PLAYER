@@ -61,15 +61,15 @@ Click the below button to watch the video tutorial on deploying
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/AdityaHalder/Aditya-Player
-$ cd Aditya-Player
+$ git clone https://github.com/PRONOI/ALONE-PLAYER
+$ cd ALONE-PLAYER
 # Upgrade sources
 # Install All Requirements 
 $ pip(3) install -r requirements.txt
 # Rename example.env to local.env and fill
 $ npm i -g npm
 # Start Bot 
-$ python(3) -m Aditya-Player
+$ python(3) -m ALONE-PLAYER
 ```
 
 ### Commands for Group 🛠
