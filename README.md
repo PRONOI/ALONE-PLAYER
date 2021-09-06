@@ -12,11 +12,11 @@ Before clicking on deploy to heroku just click on fork and star just below
 
 <p align="center">
   <a href="https://github.com/AdityaHalder/Aditya-Player/fork">
-    <img src="https://img.shields.io/github/forks/AdityaHalder/Aditya-Player?label=Fork&style=social">
+    <img src="https://img.shields.io/github.com/PRONOI/ALONE-PLAYER?label=Fork&style=social">
     
   </a>
   <a href="https://github.com/AdityaHalder/Aditya-Player">
-    <img src="https://img.shields.io/github/stars/AdityaHalder/Aditya-Player?style=social">
+    <img src="https://img.shields.io/github/stars/PRONOI/ALONE-PLAYER?style=social">
   </a>
 </p>
 
@@ -29,11 +29,11 @@ Click the below button to watch the video tutorial on deploying
 
 ### Deploy To Heroku 📡</h4>
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/PRONOI/Aditya-Player"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/PRONOI/ALONE-PLAYER"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
 
 ### Deploy To Railway 🚄</h5>
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/AdityaHalder/Aditya-Player/tree/Aditya-Player&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,SUPPORT_GROUP,PROJECT_NAME,ARQ_API_KEY,ASSISTANT_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,PMPERMIT,API_HASH,SUDO_USERS,DURATION_LIMIT)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/PRONOI/ALONE-PLAYER/tree/main&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,SUPPORT_GROUP,PROJECT_NAME,ARQ_API_KEY,ASSISTANT_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,PMPERMIT,API_HASH,SUDO_USERS,DURATION_LIMIT)
 
 ###  GET STRING SESSION FROM REPL RUN
 
