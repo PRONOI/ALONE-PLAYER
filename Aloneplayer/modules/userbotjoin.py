@@ -18,9 +18,9 @@
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 import asyncio
-from AdityaPlayer.helpers.decorators import authorized_users_only, errors
-from AdityaPlayer.services.callsmusic.callsmusic import client as USER
-from AdityaPlayer.config import SUDO_USERS
+from Aloneplayer.helpers.decorators import authorized_users_only, errors
+from Aloneplayer.services.callsmusic.callsmusic import client as USER
+from Aloneplayer.config import SUDO_USERS
 
 @Client.on_message(filters.command(["userbotjoin"]) & ~filters.private & ~filters.bot)
 @authorized_users_only
@@ -38,7 +38,7 @@ async def addchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "AdityaPlayer"
+        user.first_name = "Aloneplayer"
 
     try:
         await USER.join_chat(invitelink)
