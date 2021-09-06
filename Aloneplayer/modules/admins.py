@@ -16,16 +16,16 @@
 
 
 from asyncio import QueueEmpty
-from AdityaPlayer.config import que
+from Aloneplayer.config import que
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from AdityaPlayer.function.admins import set
-from AdityaPlayer.helpers.channelmusic import get_chat_id
-from AdityaPlayer.helpers.decorators import authorized_users_only, errors
-from AdityaPlayer.helpers.filters import command, other_filters
-from AdityaPlayer.services.callsmusic import callsmusic
-from AdityaPlayer.services.queues import queues
+from Aloneplayer.function.admins import set
+from Aloneplayer.helpers.channelmusic import get_chat_id
+from Aloneplayer.helpers.decorators import authorized_users_only, errors
+from Aloneplayer.helpers.filters import command, other_filters
+from Aloneplayer.services.callsmusic import callsmusic
+from Aloneplayer.services.queues import queues
 
 
 @Client.on_message(filters.command("adminreset"))
