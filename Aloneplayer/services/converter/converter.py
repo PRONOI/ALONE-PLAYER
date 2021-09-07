@@ -18,7 +18,7 @@
 import asyncio
 from os import path
 
-from AdityaPlayer.helpers.errors import FFmpegReturnCodeError
+from Aloneplayer.helpers.errors import FFmpegReturnCodeError
 
 
 async def convert(file_path: str) -> str:
