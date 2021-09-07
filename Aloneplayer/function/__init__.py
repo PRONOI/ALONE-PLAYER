@@ -1,3 +1,3 @@
-from AdityaPlayer.function.admins import admins, get, set
+from Aloneplayer.function.admins import admins, get, set
 
 __all__ = ["set", "get", "admins"]
