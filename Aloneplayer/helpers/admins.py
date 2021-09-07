@@ -19,8 +19,8 @@ from typing import List
 
 from pyrogram.types import Chat
 
-from AdityaPlayer.function.admins import get as gett
-from AdityaPlayer.function.admins import set
+from Aloneplayer.function.admins import get as gett
+from Aloneplayer.function.admins import set
 
 
 async def get_administrators(chat: Chat) -> List[int]:
