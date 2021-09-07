@@ -128,8 +128,8 @@ def r_ply(type_):
             ],
             
                 [
-                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"{https://t.me/ALONExSAD_BiO}"),
-                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"{https://t.me/CRAZYxWORLD_OP"),
+                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f("https://t.me/ALONExSAD_BiO"),
+                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f("https://t.me/CRAZYxWORLD_OP"),
                 ],
                 
             [InlineKeyboardButton("❌ Ƈɭøsɘ ❌", "ccls")],
@@ -327,8 +327,8 @@ async def m_cb(b, cb):
                 ],
                 
                 [
-                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"{https://t.me/adityaserver}"),
-                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"{https://t.me/adityadiscus}"),
+                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f("https://t.me/ALONExSAD_BiO"),
+                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f("https://t.me/CRAZYxWORLD_OP"),
                 ],
                 
                 [InlineKeyboardButton("❌ Ƈɭøsɘ ❌", "ccls")],
@@ -474,8 +474,8 @@ async def play(_, message: Message):
                     InlineKeyboardButton("🎧 Ɱɘɳʋ 🎧", callback_data="cmenu"),
                 ],
                 [
-                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"{https://t.me/adityaserver}"),
-                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"{https://t.me/adityadiscus}"),
+                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f("https://t.me/ALONExSAD_BiO"),
+                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f("https://t.me/CRAZYxWORLD_OP"),
                 ],
                 [InlineKeyboardButton(text="❌ Ƈɭøsɘ ❌", callback_data="ccls")],
             ]
@@ -525,8 +525,8 @@ async def play(_, message: Message):
                     InlineKeyboardButton("🎧 Ɱɘɳʋ 🎧", callback_data="cmenu"),
                 ],
                 [
-                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"{https://t.me/adityaserver}"),
-                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"{https://t.me/adityadiscus}"),
+                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f("https://t.me/ALONExSAD_BiO"),
+                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f("https://t.me/CRAZYxWORLD_OP"),
                 ],
                 [InlineKeyboardButton(text="❌ Ƈɭøsɘ ❌", callback_data="ccls")],
             ]
@@ -570,8 +570,8 @@ async def play(_, message: Message):
                     InlineKeyboardButton("🎧 Ɱɘɳʋ 🎧", callback_data="cmenu"),
                 ],
                 [
-                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"{https://t.me/adityaserver}"),
-                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"{https://t.me/adityadiscus}"),
+                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f("https://t.me/ALONExSAD_BiO"),
+                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f("https://t.me/CRAZYxWORLD_OP"),
                 ],
                 [InlineKeyboardButton(text="❌ Ƈɭøsɘ ❌", callback_data="ccls")],
             ]
@@ -707,8 +707,8 @@ async def deezer(client: Client, message_: Message):
                 InlineKeyboardButton("🎧 Ɱɘɳʋ 🎧", callback_data="cmenu"),
             ],
                 [
-                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"{https://t.me/adityaserver}"),
-                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"{https://t.me/adityadiscus}"),
+                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f("https://t.me/ALONExSAD_BiO"),
+                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f("https://t.me/CRAZYxWORLD_OP"),
                 ],
             
             [InlineKeyboardButton(text="❌ Ƈɭøsɘ ❌", callback_data="ccls")],
@@ -841,8 +841,8 @@ async def jiosaavn(client: Client, message_: Message):
                 InlineKeyboardButton("🎧 Ɱɘɳʋ 🎧", callback_data="cmenu"),
             ],
                 [
-                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"{https://t.me/adityaserver}"),
-                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"{https://t.me/adityadiscus}"),
+                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f("https://t.me/ALONExSAD_BiO"),
+                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f("https://t.me/CRAZYxWORLD_OP"),
                 ],
             [InlineKeyboardButton(text="❌ Ƈɭøsɘ ❌", callback_data="ccls")],
         ]
