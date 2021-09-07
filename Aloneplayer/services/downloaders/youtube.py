@@ -21,8 +21,8 @@ from os import path
 
 from youtube_dl import YoutubeDL
 
-from AdityaPlayer.config import DURATION_LIMIT
-from AdityaPlayer.helpers.errors import DurationLimitError
+from Aloneplayer.config import DURATION_LIMIT
+from Aloneplayer.helpers.errors import DurationLimitError
 
 ydl_opts = {
     "format": "bestaudio[ext=m4a]",
