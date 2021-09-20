@@ -1182,7 +1182,7 @@ async def lol_cb(b, cb):
     if cb.from_user.id != useer_id:
         await cb.answer("❌ Yøʋ Ʌɩɳ Ɲøʈ Ƭɦɘ Ƥɘɤsøɳ Wɦø Ʀɘʠʋɘsʈɘɗ ʈø Ƥɭɑƴ Ƭɦɘ Søɳʛ ❗️", show_alert=True)
         return
-    await cb.message.edit("**🎧 ALONE Ƥɭɑyeɤ ɩs Ɲøω Sʈɑɤʈɩɳʛ ...**")
+    await cb.message.edit("**🎧 ɅɭøƝɘ Ƥɭɑƴɘɤ ɩs Ɲøω Sʈɑɤʈɩɳʛ ...**")
     x=int(x)
     try:
         useer_name = cb.message.reply_to_message.from_user.first_name
